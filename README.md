@@ -3,7 +3,7 @@
 
 CSS custom properties helper utility
 
-  npm i css-var
+    npm i css-var
 
 ```js
 import cv from 'css-var'
