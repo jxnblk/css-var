@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<title>css-var</title>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<style>
+*{box-sizing:border-box}
+body{
+  font-family: -apple-system, sans-serif;
+  margin: 0;
+  padding: 48px;
+  transition:
+    color .2s ease-out,
+    background-color .4s ease-out;
+}
+h1 {
+  font-size: 64px;
+}
+</style>
+<h1>css-var</h1>
+<h2>1. Set Custom Properties</h2>
+<pre>cx({ blue: '#07c' })</pre>
+<h2>2. Use Custom Properties</h2>
+<pre>document.body.style.color = cx('blue')</pre>
+<script src='bundle.js'></script>
